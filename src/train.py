@@ -43,5 +43,7 @@ def main(repo_path):
 
 
 if __name__ == "__main__":
-    repo_path = Path(__file__).parent.parent
+
+    # repo_path = Path(__file__).parent.parent
+    repo_path = Path(__file__).parent.absolute().parent
     main(repo_path)
